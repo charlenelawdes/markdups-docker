@@ -20,3 +20,5 @@ ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64/
 RUN export JAVA_HOME
 
 RUN wget https://github.com/hartwigmedical/hmftools/releases/download/mark-dups-v1.1.7/mark-dups_v1.1.7.jar
+
+CMD java -jar mark-dups_v1.1.7.jar

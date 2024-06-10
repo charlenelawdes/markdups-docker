@@ -1,8 +1,8 @@
 [![Build and Push Docker Image](https://github.com/bwbioinfo/<tool>-docker-cwl/actions/workflows/build-and-push.yml/badge.svg)](https://github.com/bwbioinfo/<tool>-docker-cwl/actions/workflows/build-and-push.yml)
 
-# <tool>-docker-cwl
+# markdups-docker
 
-This repository provides a [Common Workflow Language (CWL)](https://www.commonwl.org/) tool for running the [<tool>](link) program. The tool is packaged in a Docker container, allowing it to run on any system with Docker or Singularity installed.
+This repository provides a [Common Workflow Language (CWL)](https://www.commonwl.org/) tool for running the mark-dups program from [hmftools](https://github.com/hartwigmedical/hmftools) program. The tool is packaged in a Docker container, allowing it to run on any system with Docker or Singularity installed.
 
 ## Prerequisites
 
